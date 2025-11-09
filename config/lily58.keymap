@@ -76,11 +76,11 @@
         nav {
             display-name = "Nav";
             bindings = <
-&trans  &trans    &trans          &trans          &trans           &trans                             &trans        &trans          &trans     &trans     &trans  &trans
-&trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans                             &trans        &trans          &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END                            &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT  &trans  &trans
-&trans  &trans    &trans          &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans    &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans     &trans     &trans  &trans
-                                  &trans          &mkp RCLK        &mkp LCLK        &trans    &trans  &trans        &to 0           &trans
+&kp GRAVE  &kp F12  &trans  &trans         &trans     &trans                        &trans    &trans              &trans             &trans     &trans          &trans
+&trans     &trans   &trans  &kp LS(MINUS)  &kp EQUAL  &trans                        &trans    &kp LS(APOSTROPHE)  &kp LS(APOS)       &mkp RCLK  &trans          &trans
+&trans     &trans   &trans  &kp LS(EQUAL)  &kp MINUS  &kp LS(N8)                    &kp APOS  &kp LS(N9)          &kp LS(N0)         &trans     &kp UP_ARROW    &trans
+&trans     &trans   &trans  &trans         &trans     &trans      &trans    &trans  &trans    &kp LS(N7)          &kp LS(BACKSLASH)  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT
+                            &trans         &trans     &trans      &trans    &trans  &trans    &trans              &trans
             >;
         };
 
